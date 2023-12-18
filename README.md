@@ -1,4 +1,4 @@
-# MXXX-project-template
+# M006-wackett-SBB-geochem
 This is a standardized repo template for jelinski lab new project repos which follows our lab-specific open science guide procedures [insert link here to guide]. 
 
 ## Registering a unique project ID on @jelinski-lab-project-registry
