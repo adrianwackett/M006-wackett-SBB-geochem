@@ -1,0 +1,15 @@
+sample,pluton,method,age_Ma,age_Ma_error,distance
+X4,Nuka,U-Pb zircon,56,0.5,970
+RB14-01,Hive Island,U-Pb zircon,56.39268741,1.5,1040
+RB13-04,Aialik,U-Pb zircon,56.49023388,1,1010
+X5,Kodiak Is. ,U-Pb zircon,58.4,0.2,732
+X6,Kodiak Is. ,U-Pb zircon,58.5,0.1,727
+X7,Kodiak Is. ,U-Pb zircon,58.9,0.2,717
+X8,Kodiak Is. ,U-Pb zircon,59,0.3,664
+X9,Kodiak Is. ,U-Pb zircon,59.1,0.2,642
+X10,Kodiak Is. ,U-Pb zircon,59.2,0.2,647
+X11,Semidi Is.,U-Pb zircon,60.1,0.2,412
+X12,Nagai Is.,U-Pb zircon,61.1,0.3,203
+NIAS12-21,Nagai Is.,U-Pb zircon,61.67563083,0.7,203
+NI12-05,Nagai Is.,U-Pb zircon,62.6259835,0.7,203
+SI12-02,Sanak Is.,U-Pb zircon,63.10376129,0.9,3
