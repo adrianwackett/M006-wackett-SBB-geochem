@@ -1,0 +1,311 @@
+sample,location_reference,distance_from_Sanak_km,SiO2_percent,Sr_ppm,Y_ppm,Sr_Y
+S8a,"Sanak pluton (Hill et al., 1981)",3,64.54,201.3,36,5.591666667
+S9a,"Sanak pluton (Hill et al., 1981)",3,64.97,191.2,,
+S69i,"Sanak pluton (Hill et al., 1981)",3,65.22,187.1,,
+S70,"Sanak pluton (Hill et al., 1981)",3,65.45,200.7,35,5.734285714
+S20a,"Sanak pluton (Hill et al., 1981)",3,66.01,182.5,,
+S7a,"Sanak pluton (Hill et al., 1981)",3,66.18,173,,
+S69a,"Sanak pluton (Hill et al., 1981)",3,68.9,143.8,32,4.49375
+S7b,"Sanak pluton (Hill et al., 1981)",3,72.74,93,17,5.470588235
+N131,"Shumagin pluton (Hill et al., 1981)",203,61.32,231,24,9.625
+NIAS12-21C,Nagai Is. (This study),203,63.87085566,360.35,19.8,18.19949495
+NIAS12-20M,Nagai Is. (This study),203,66.33791359,318.1,10.85,29.31797235
+N58,"Shumagin pluton (Hill et al., 1981)",203,67.78,203.6,,
+N186,"Shumagin pluton (Hill et al., 1981)",203,68.03,181.3,46,3.941304348
+N172,"Shumagin pluton (Hill et al., 1981)",203,69.6,145.1,,
+NIAS12-17,Nagai Is. (This study),203,69.84274539,145.4,27.95,5.202146691
+NI12-05,Nagai Is. (This study),203,71.03853249,126.8,28.4,4.464788732
+NIAS12-21B,Nagai Is. (This study),203,71.86616881,121.95,33.85,3.602658789
+NIAS12-15,Nagai Is. (This study),203,71.95020714,71.85,35.7,2.012605042
+NIAS12-14,Nagai Is. (This study),203,73.1193512,81.5,35.35,2.305516266
+N20,"Shumagin pluton (Hill et al., 1981)",203,73.24,95.7,35,2.734285714
+NIAS12-21,Nagai Is. (This study),203,73.25484347,95.9,36.65,2.616643929
+N56,"Shumagin pluton (Hill et al., 1981)",203,73.32,88,,
+NIAS12-16,Nagai Is. (This study),203,73.52117633,77.1,37.05,2.08097166
+NIAS12-18,Nagai Is. (This study),203,73.92202643,84.4,36.35,2.321870702
+N156,"Shumagin pluton (Hill et al., 1981)",203,74.54,70.9,,
+NIAS12-20L,Nagai Is. (This study),203,74.55689086,70.8,34.4,2.058139535
+N169,"Shumagin pluton (Hill et al., 1981)",203,74.79,68.2,,
+N170,"Shumagin pluton (Hill et al., 1981)",203,75.94,40.2,28,1.435714286
+01KD75D,"Kodiak Eastern Satellite Group (Ayuso et al., 2009)",688,54.21,158.9,12.2,13.02459016
+01PH116A,"Kodiak Central Zone (Ayuso et al., 2009)",688,57.31,249.1,16.1,15.47204969
+01KD141A,"Kodiak Eastern Satellite Group (Ayuso et al., 2009)",688,59.74,235.7,36.6,6.43989071
+RA02AK07,"Kodiak Central Zone (Ayuso et al., 2009)",688,61.32,218.3,15.1,14.45695364
+RA02AK10,"Kodiak Central Zone (Ayuso et al., 2009)",688,61.34,241.5,24.2,9.979338843
+01PH121A,"Kodiak Central Zone (Ayuso et al., 2009)",688,61.51,213.3,22.6,9.438053097
+RA02AK30,"Kodiak Central Zone (Ayuso et al., 2009)",688,62.4,239,25.7,9.299610895
+RA02AK20,"Kodiak Southern Zone (Ayuso et al., 2009)",688,62.52,220.5,24.8,8.891129032
+RA02AK12,"Kodiak Central Zone (Ayuso et al., 2009)",688,62.81,258.7,18.3,14.13661202
+RA02AK09,"Kodiak Central Zone (Ayuso et al., 2009)",688,62.86,225.1,20.4,11.03431373
+RA02AK25,"Kodiak Central Zone (Ayuso et al., 2009)",688,63.06,216.7,23,9.42173913
+RA02AK22,"Kodiak Southern Zone (Ayuso et al., 2009)",688,63.45,196.4,25.1,7.824701195
+RA02AK06,"Kodiak Central Zone (Ayuso et al., 2009)",688,63.57,203.5,18,11.30555556
+RA02AK39A,"Kodiak Central Zone (Ayuso et al., 2009)",688,63.73,193.8,22.3,8.69058296
+RA02AK39B,"Kodiak Central Zone (Ayuso et al., 2009)",688,63.73,193.8,22.3,8.69058296
+RA02AK26,"Kodiak Central Zone (Ayuso et al., 2009)",688,63.96,198.8,25.4,7.826771654
+RA02AK19,"Kodiak Southern Zone (Ayuso et al., 2009)",688,63.99,199.4,20.2,9.871287129
+RA02AK23,"Kodiak Central Zone (Ayuso et al., 2009)",688,64,192.8,22.9,8.419213974
+01KD74B,"Kodiak Eastern Satellite Group (Ayuso et al., 2009)",688,64.06,179.1,33.8,5.298816568
+RA02AK21,"Kodiak Southern Zone (Ayuso et al., 2009)",688,64.14,180.3,40.4,4.462871287
+RA02AK27,"Kodiak Northern Zone (Ayuso et al., 2009)",688,64.18,202.5,14.8,13.68243243
+RA02AK08,"Kodiak Central Zone (Ayuso et al., 2009)",688,64.25,222.1,21.5,10.33023256
+RA02AK28,"Kodiak Central Zone (Ayuso et al., 2009)",688,64.34,191.2,20.3,9.418719212
+RA02AK18,"Kodiak Southern Zone (Ayuso et al., 2009)",688,64.39,191.9,21.8,8.802752294
+RA02AK41,"Kodiak Northern Zone (Ayuso et al., 2009)",688,65.08,261.5,15.6,16.76282051
+RA02AK29,"Kodiak Central Zone (Ayuso et al., 2009)",688,65.14,223.2,18.8,11.87234043
+RA02AK17A,"Kodiak Southern Zone (Ayuso et al., 2009)",688,65.16,158.9,24.3,6.53909465
+RA02AK17B,"Kodiak Southern Zone (Ayuso et al., 2009)",688,65.16,158.9,24.3,6.53909465
+RA02AK40,"Kodiak Northern Zone (Ayuso et al., 2009)",688,65.22,251.9,14.3,17.61538462
+RA02AK24,"Kodiak Central Zone (Ayuso et al., 2009)",688,65.42,197.7,21.4,9.238317757
+H1-7z,"Kodiak batholith (Hill et al., 1981)",688,65.76,194.2,17,11.42352941
+RA02AK05,"Kodiak Eastern Satellite Group (Ayuso et al., 2009)",688,66.01,252.5,29,8.706896552
+01KD72B,"Kodiak Eastern Satellite Group (Ayuso et al., 2009)",688,67.34,194.5,39.1,4.974424552
+RA02AK15,"Kodiak Western Satellite Group (Ayuso et al., 2009)",688,68.05,204.8,18.3,11.19125683
+RA02AK42,"Kodiak Northern Zone (Ayuso et al., 2009)",688,68.45,175.1,17.7,9.892655367
+K4033,"Kodiak batholith (Hill et al., 1981)",688,68.5,157,24,6.541666667
+RA02AK44,"Kodiak Northern Zone (Ayuso et al., 2009)",688,68.83,170.4,22,7.745454545
+RA02AK14,"Kodiak Western Satellite Group (Ayuso et al., 2009)",688,69.16,197.8,16.2,12.20987654
+RA02AK37,"Kodiak Northern Zone (Ayuso et al., 2009)",688,69.78,216.7,13.2,16.41666667
+01KD56A,"Kodiak Northern Zone (Ayuso et al., 2009)",688,70.14,242.8,14.7,16.5170068
+RA02AK38,"Kodiak Northern Zone (Ayuso et al., 2009)",688,70.5,201,16,12.5625
+RA02AK31,"Kodiak Northern Satellite Group (Ayuso et al., 2009)",688,70.89,163.9,18.4,8.907608696
+01KD60B,"Kodiak Northern Zone (Ayuso et al., 2009)",688,71,187.5,12.2,15.36885246
+RA02AK16,"Kodiak Northern Zone (Ayuso et al., 2009)",688,71.45,159.7,24.8,6.439516129
+RA02AK36,"Kodiak Northern Zone (Ayuso et al., 2009)",688,72.02,191.2,16.6,11.51807229
+01KD70DV,"Kodiak Northern Satellite Group (Ayuso et al., 2009)",688,74.76,43,6.3,6.825396825
+RA02AK35,"Kodiak Northern Satellite Group (Ayuso et al., 2009)",688,74.86,35.8,7.3,4.904109589
+RA02AK32,"Kodiak Northern Satellite Group (Ayuso et al., 2009)",688,75.18,37,7.6,4.868421053
+RA02AK33,"Kodiak Northern Satellite Group (Ayuso et al., 2009)",688,75.56,44.2,6.4,6.90625
+01KD70C,"Kodiak Northern Satellite Group (Ayuso et al., 2009)",688,75.75,33.9,6.5,5.215384615
+01PH107B,"Kodiak Eastern Satellite Group (Ayuso et al., 2009)",688,80.41,88.8,6.4,13.875
+91ADW-113C,"Seldovia dikes (Lytwyn et al., 2000)",920,54.26,333,19,17.52631579
+92DW131A,"Seldovia dikes (Bradley et al., 2003)",920,54.4,430,15,28.66666667
+89ADW-167B,"Seldovia dikes (Lytwyn et al., 2000)",920,54.42,474,21,22.57142857
+90ADW-68A,"Seldovia dikes (Lytwyn et al., 2000)",920,54.45,644,19,33.89473684
+92ATI116B2,"Seldovia dikes (Bradley et al., 2003)",920,54.5,480,14,34.28571429
+89ADW156,"Seldovia dikes (Bradley et al., 2003)",920,54.6,710,13,54.61538462
+92ASG-17,"Seldovia dikes (Lytwyn et al., 2000)",920,54.71,449,20,22.45
+91ADW14B,"Seldovia dikes (Bradley et al., 2003)",920,55,900,16,56.25
+90ADW18A,"Seldovia dikes (Bradley et al., 2003)",920,55.2,820,16,51.25
+91SK201A,"Seldovia dikes (Bradley et al., 2003)",920,55.2,400,16,25
+91AKU-124B,"Seldovia dikes (Lytwyn et al., 2000)",920,56.49,230,11,20.90909091
+92AKU243A,"Seldovia dikes (Bradley et al., 2003)",920,56.5,350,19,18.42105263
+90ADW-36,"Seldovia dikes (Lytwyn et al., 2000)",920,57.02,334,13,25.69230769
+89ADW146,"Seldovia dikes (Bradley et al., 2003)",920,57.4,500,13,38.46153846
+91SK228A,"Seldovia dikes (Bradley et al., 2003)",920,57.4,700,12,58.33333333
+90ADW-18,"Seldovia dikes (Lytwyn et al., 2000)",920,57.65,783,16,48.9375
+92ASG-19,"Seldovia dikes (Lytwyn et al., 2000)",920,57.96,502,15,33.46666667
+92ASG-3,"Seldovia dikes (Lytwyn et al., 2000)",920,58.69,630,16,39.375
+89ADW-156,"Seldovia dikes (Lytwyn et al., 2000)",920,58.76,729,16,45.5625
+90ADW809A,"Seldovia dikes (Bradley et al., 2003)",920,58.9,620,14,44.28571429
+92ADW95A,"Seldovia dikes (Bradley et al., 2003)",920,58.9,310,13,23.84615385
+92AKU238A,"Seldovia dikes (Bradley et al., 2003)",920,59.1,320,13,24.61538462
+89ADW-146,"Seldovia dikes (Lytwyn et al., 2000)",920,59.38,469,14,33.5
+91ADW-97,"Seldovia dikes (Lytwyn et al., 2000)",920,59.74,401,11,36.45454545
+92AKU237A,"Seldovia dikes (Bradley et al., 2003)",920,59.8,290,13,22.30769231
+92PH415C,"Seldovia dikes (Bradley et al., 2003)",920,59.8,710,15,47.33333333
+92ATI120A,"Seldovia dikes (Bradley et al., 2003)",920,60.3,610,19,32.10526316
+91ADW-102C,"Seldovia dikes (Lytwyn et al., 2000)",920,60.43,736,22,33.45454545
+92ADW157A,"Seldovia dikes (Bradley et al., 2003)",920,60.6,1700,10,170
+92ED-33B,"Seldovia dikes (Lytwyn et al., 2000)",920,60.61,714,15,47.6
+90ADW402A,"Seldovia dikes (Bradley et al., 2003)",920,60.8,330,7,47.14285714
+89ADW155A,"Seldovia dikes (Bradley et al., 2003)",920,60.9,790,14,56.42857143
+92ADW220A,"Seldovia dikes (Bradley et al., 2003)",920,61.1,420,13,32.30769231
+89ADW142B,"Seldovia dikes (Bradley et al., 2003)",920,61.3,520,12,43.33333333
+90ADW-809A,"Seldovia dikes (Lytwyn et al., 2000)",920,61.32,673,14,48.07142857
+91ADW-102E,"Seldovia dikes (Lytwyn et al., 2000)",920,61.36,726,23,31.56521739
+90ADW404A,"Seldovia dikes (Bradley et al., 2003)",920,61.4,310,7,44.28571429
+92ADW216A,"Seldovia dikes (Bradley et al., 2003)",920,61.4,710,14,50.71428571
+91ADW-130B,"Seldovia dikes (Lytwyn et al., 2000)",920,61.74,251,21,11.95238095
+89ADW151,"Seldovia dikes (Bradley et al., 2003)",920,61.8,600,13,46.15384615
+89ADW-151,"Seldovia dikes (Lytwyn et al., 2000)",920,62.14,603,15,40.2
+92PH106B,"Seldovia dikes (Bradley et al., 2003)",920,62.3,430,9,47.77777778
+89ADW-155A,"Seldovia dikes (Lytwyn et al., 2000)",920,62.32,724,10,72.4
+92ATI115A,"Seldovia dikes (Bradley et al., 2003)",920,62.4,440,7,62.85714286
+89ADW-142B,"Seldovia dikes (Lytwyn et al., 2000)",920,62.44,517,14,36.92857143
+92ADW153A,"Seldovia dikes (Bradley et al., 2003)",920,63,550,2,275
+91ADW-129B,"Seldovia dikes (Lytwyn et al., 2000)",920,63.16,826,20,41.3
+92AKU206A,"Seldovia dikes (Bradley et al., 2003)",920,63.3,240,3,80
+90ADW407A,"Seldovia dikes (Bradley et al., 2003)",920,63.5,430,4,107.5
+91AKU-126B,"Seldovia dikes (Lytwyn et al., 2000)",920,63.6,714,17,42
+90ADW406A,"Seldovia dikes (Bradley et al., 2003)",920,63.7,560,9,62.22222222
+92ASG-21,"Seldovia dikes (Lytwyn et al., 2000)",920,64.21,687,17,40.41176471
+92ASG-7,"Seldovia dikes (Lytwyn et al., 2000)",920,64.44,686,11,62.36363636
+92ASG-20,"Seldovia dikes (Lytwyn et al., 2000)",920,64.47,1288,19,67.78947368
+92TD49B,"Seldovia dikes (Bradley et al., 2003)",920,64.5,270,16,16.875
+90ADW421A,"Seldovia dikes (Bradley et al., 2003)",920,64.6,1400,10,140
+91ADW-127B,"Seldovia dikes (Lytwyn et al., 2000)",920,64.88,390,27,14.44444444
+90ADW418A,"Seldovia dikes (Bradley et al., 2003)",920,64.9,1200,11,109.0909091
+92ADW221B,"Seldovia dikes (Bradley et al., 2003)",920,65.3,780,6,130
+91SK213A,"Seldovia dikes (Bradley et al., 2003)",920,65.5,370,6,61.66666667
+92PH319C,"Seldovia dikes (Bradley et al., 2003)",920,65.6,730,5,146
+92AKU52A,"Seldovia dikes (Bradley et al., 2003)",920,65.7,290,14,20.71428571
+92AKU144A,"Seldovia dikes (Bradley et al., 2003)",920,65.8,330,13,25.38461538
+90ADW-402A,"Seldovia dikes (Lytwyn et al., 2000)",920,65.94,318,10,31.8
+90ADW530A,"Seldovia dikes (Bradley et al., 2003)",920,66.1,740,7,105.7142857
+90ADW-404A,"Seldovia dikes (Lytwyn et al., 2000)",920,66.34,318,6.1,52.13114754
+90ADW410A,"Seldovia dikes (Bradley et al., 2003)",920,66.4,910,5,182
+90ADW-406A,"Seldovia dikes (Lytwyn et al., 2000)",920,66.43,563,10,56.3
+92ADW106A,"Seldovia dikes (Bradley et al., 2003)",920,66.6,610,4,152.5
+90ADW428A,"Seldovia dikes (Bradley et al., 2003)",920,66.9,290,7,41.42857143
+90ADW826A,"Seldovia dikes (Bradley et al., 2003)",920,67.1,510,3,170
+92ADW142A,"Seldovia dikes (Bradley et al., 2003)",920,67.3,290,6,48.33333333
+92PH322C,"Seldovia dikes (Bradley et al., 2003)",920,67.3,270,7,38.57142857
+90ADW-410A,"Seldovia dikes (Lytwyn et al., 2000)",920,67.39,874,6,145.6666667
+90ADW425A,"Seldovia dikes (Bradley et al., 2003)",920,67.4,1100,5,220
+90ADW-407A,"Seldovia dikes (Lytwyn et al., 2000)",920,67.45,448,6.9,64.92753623
+90ADW-418A,"Seldovia dikes (Lytwyn et al., 2000)",920,67.56,1220,12,101.6666667
+90ADW-530A,"Seldovia dikes (Lytwyn et al., 2000)",920,67.6,734,11,66.72727273
+92PH496B,"Seldovia dikes (Bradley et al., 2003)",920,67.6,620,6,103.3333333
+90ADW-421A,"Seldovia dikes (Lytwyn et al., 2000)",920,67.64,1502,11,136.5454545
+90ADW426A,"Seldovia dikes (Bradley et al., 2003)",920,67.7,650,4,162.5
+91ADW-73F,"Seldovia dikes (Lytwyn et al., 2000)",920,67.73,455,5.9,77.11864407
+89ADW148,"Seldovia dikes (Bradley et al., 2003)",920,67.8,410,2,205
+92ADW67A,"Seldovia dikes (Bradley et al., 2003)",920,67.9,520,5,104
+92PH435B,"Seldovia dikes (Bradley et al., 2003)",920,67.9,280,3,93.33333333
+91ADW-137C,"Seldovia dikes (Lytwyn et al., 2000)",920,67.99,648,6.2,104.516129
+91ADW40A,"Seldovia dikes (Bradley et al., 2003)",920,68.3,490,4,122.5
+90ADW-425A,"Seldovia dikes (Lytwyn et al., 2000)",920,68.33,1038,5.9,175.9322034
+92PH437B,"Seldovia dikes (Bradley et al., 2003)",920,68.5,370,4,92.5
+92PH320C,"Seldovia dikes (Bradley et al., 2003)",920,68.6,350,12,29.16666667
+90ADW-428A,"Seldovia dikes (Lytwyn et al., 2000)",920,68.67,290,9,32.22222222
+92AKU227B,"Seldovia dikes (Bradley et al., 2003)",920,68.7,350,8,43.75
+91ADW-72C,"Seldovia dikes (Lytwyn et al., 2000)",920,68.71,503,6.6,76.21212121
+92ADW192A,"Seldovia dikes (Bradley et al., 2003)",920,69.3,170,13,13.07692308
+92PH393C,"Seldovia dikes (Bradley et al., 2003)",920,69.3,280,4,70
+90ADW-426A,"Seldovia dikes (Lytwyn et al., 2000)",920,69.4,663,5.7,116.3157895
+92ADW74A,"Seldovia dikes (Bradley et al., 2003)",920,69.4,330,13,25.38461538
+91AKU-132B,"Seldovia dikes (Lytwyn et al., 2000)",920,69.58,746,9.7,76.90721649
+92ADW225A,"Seldovia dikes (Bradley et al., 2003)",920,70,550,3,183.3333333
+92TD138A,"Seldovia dikes (Bradley et al., 2003)",920,70,490,4,122.5
+91ADW-94B,"Seldovia dikes (Lytwyn et al., 2000)",920,70.11,340,7.1,47.88732394
+90ADW-826A,"Seldovia dikes (Lytwyn et al., 2000)",920,70.23,498,6.3,79.04761905
+91ADW-77B,"Seldovia dikes (Lytwyn et al., 2000)",920,70.36,537,6.3,85.23809524
+90ADW24A,"Seldovia dikes (Bradley et al., 2003)",920,70.5,450,3,150
+92ATI322B,"Seldovia dikes (Bradley et al., 2003)",920,70.5,230,10,23
+91ADW-78C,"Seldovia dikes (Lytwyn et al., 2000)",920,70.77,529,5.9,89.66101695
+89ADW154A,"Seldovia dikes (Bradley et al., 2003)",920,70.8,170,16,10.625
+92ADW127A,"Seldovia dikes (Bradley et al., 2003)",920,71,460,3,153.3333333
+91AKU-51B,"Seldovia dikes (Lytwyn et al., 2000)",920,71.3,518,4.5,115.1111111
+91ADW55F,"Seldovia dikes (Bradley et al., 2003)",920,71.4,200,7,28.57142857
+90ADW419A,"Seldovia dikes (Bradley et al., 2003)",920,71.7,290,3,96.66666667
+90ADW-24A,"Seldovia dikes (Lytwyn et al., 2000)",920,71.8,430,7,61.42857143
+89ADW145A,"Seldovia dikes (Bradley et al., 2003)",920,71.8,800,2,400
+92ADW35A,"Seldovia dikes (Bradley et al., 2003)",920,71.9,490,8,61.25
+89ADW-148,"Seldovia dikes (Lytwyn et al., 2000)",920,71.94,425,4.6,92.39130435
+92ASG-13,"Seldovia dikes (Lytwyn et al., 2000)",920,71.98,517,10,51.7
+92ATI320A,"Seldovia dikes (Bradley et al., 2003)",920,72.1,200,7,28.57142857
+92ATI321B,"Seldovia dikes (Bradley et al., 2003)",920,72.4,180,7,25.71428571
+89ADW-154A,"Seldovia dikes (Lytwyn et al., 2000)",920,72.67,166,21,7.904761905
+89ADW-145A,"Seldovia dikes (Lytwyn et al., 2000)",920,72.83,809,1.9,425.7894737
+92PH398B,"Seldovia dikes (Bradley et al., 2003)",920,73.4,150,15,10
+92AKU201A,"Seldovia dikes (Bradley et al., 2003)",920,73.9,430,6,71.66666667
+91ADW5A,"Seldovia dikes (Bradley et al., 2003)",920,74.1,,2,
+90ADW-419A,"Seldovia dikes (Lytwyn et al., 2000)",920,74.75,293,4.2,69.76190476
+92ADW211D,"Seldovia dikes (Bradley et al., 2003)",920,76.2,210,12,17.5
+90ADW403A,"Seldovia dikes (Bradley et al., 2003)",920,76.9,180,3,60
+92ATI104A,"Seldovia dikes (Bradley et al., 2003)",920,78.1,190,10,19
+90ADW-403A,"Seldovia dikes (Lytwyn et al., 2000)",920,78.73,177,3,59
+RB13-04,Aialik pluton (This study),1010,73.1193512,157.5736371,29.58817465,5.325561274
+RB13-03,Hive Is. (This study),1040,71.95020714,205,27,7.592592593
+RP86B-408B,"Resurrection ophiolite (Lytwyn et al., 1997)",1050,54.17,177,30,5.9
+RP86B-361B,"Resurrection ophiolite (Lytwyn et al., 1997)",1050,55.71,163,46,3.543478261
+K-35,"Knight Island ophiolite (Lytwyn et al., 1997)",1150,53.83,118,53,2.226415094
+K-19,"Knight Island ophiolite (Lytwyn et al., 1997)",1150,53.84,95,29,3.275862069
+K-2,"Knight Island ophiolite (Lytwyn et al., 1997)",1150,53.94,78,27,2.888888889
+BC-8,"Sheep Bay (Barker et al., 1992)",1290,66.27,240,23,10.43478261
+BC-6,"Sheep Bay (Barker et al., 1992)",1290,67.66,250,26,9.615384615
+BC-9,"Sheep Bay (Barker et al., 1992)",1290,68.74,230,25,9.2
+BC-5,"Sheep Bay (Barker et al., 1992)",1290,69.26,210,22,9.545454545
+BC-7,"Sheep Bay (Barker et al., 1992)",1290,71.3,190,30,6.333333333
+CV14-08c,Sheep Bay (This study),1290,76.69866943,111,24.5,4.530612245
+BC-1,"Rude River (Barker et al., 1992)",1320,69.83,270,33,8.181818182
+BC-2,"Rude River (Barker et al., 1992)",1320,70.61,245,26,9.423076923
+BC-11,"McKinley Peak (Barker et al., 1992)",1360,66.62,195,34,5.735294118
+BC-10,"McKinley Peak (Barker et al., 1992)",1360,68.4,205,26,7.884615385
+BC-12,"McKinley Peak (Barker et al., 1992)",1360,69.48,175,40,4.375
+BC-3,"McKinley Peak (Barker et al., 1992)",1360,69.63,170,35,4.857142857
+BC-13,"McKinley Peak (Barker et al., 1992)",1360,69.69,215,37,5.810810811
+APR-140,"Dacitic dike (Barker et al., 1992)",1360,71.59,255,3,85
+CV14-07,McKinley Peak (This study),1360,73.52117633,189,27.2,6.948529412
+91AHa3,"Wernicke (Sisson et al., 2003b)",1410,60.99,283,16,17.6875
+91AHa6b,"Wernicke (Sisson et al., 2003b)",1410,64.8,201,16,12.5625
+94APo49,"Van Cleve (Sisson et al., 2003b)",1410,66.57,179,20,8.95
+91AHa12,"Wernicke (Sisson et al., 2003b)",1410,66.85,228,28,8.142857143
+91AHa2,"Wernicke (Harris et al., 1996)",1410,68.74,345,20,17.25
+94ASn52,"Van Cleve (Sisoon et al., 2003b)",1410,69,359,11,32.63636364
+94APO47,"Van Cleve (Sisoon et al., 2003b)",1410,69.4,149,24.1,6.182572614
+94APo44a,"Van Cleve (Sisoon et al., 2003b)",1410,69.96,121,23,5.260869565
+94APo40,"Van Cleve (Sisoon et al., 2003b)",1410,71.33,142,10,14.2
+91AHa14C,"Wernicke (Sisson et al., 2003b)",1410,71.69,223,22,10.13636364
+94APo39,"Van Cleve (Sisoon et al., 2003b)",1410,71.91,150,12,12.5
+94APO36,"Van Cleve (Sisoon et al., 2003b)",1410,74.26,224,13.9,16.11510791
+91AHa12,"Wernicke (Harris et al., 1996)",1410,,228,,
+91ASn93,"Goat Wallow (Sisson et al., 2003b)",1480,60.18,214,18,11.88888889
+89ASn62C,"Bunch Lake (Sisson et al., 2003b)",1480,70,310,16,19.375
+89ASn52A,"Ross Green Lake (Harris et al., 1996)",1480,,494,,
+89ASn71A,"Bunch Lake (Harris et al., 1996)",1480,,429,,
+89ASn72A,"Bunch Lake (Harris et al., 1996)",1480,,483,,
+89ASn77A,"Bunch Lake (Harris et al., 1996)",1480,,164,,
+91AHa31,"Tana (Sisson et al., 2003b)",1490,58.38,409,36,11.36111111
+91ASn72b,"Tana (Sisson et al., 2003b)",1490,63.65,297,10,29.7
+91ASn83,"Tana (Sisson et al., 2003b)",1490,64.22,277,10,27.7
+91AHa27,"Tana (Sisson et al., 2003b)",1490,66,294,8,36.75
+91AHa50,"Tana (Sisson et al., 2003b)",1490,67.66,186,34,5.470588235
+91ASn64,"Tana (Sisson et al., 2003b)",1490,67.68,417,10,41.7
+91AHa26,"Tana (Sisson et al., 2003b)",1490,67.75,327,4,81.75
+91AHa42,"Tana (Sisson et al., 2003b)",1490,68.26,219,28,7.821428571
+91ASn63,"Tana (Sisson et al., 2003b)",1490,68.96,315,12,26.25
+91AHa32,"Tana (Sisson et al., 2003b)",1490,69.03,102,10,10.2
+91ASn61B,"Tana (Sisson et al., 2003b)",1490,70.52,339,24,14.125
+89ASn87C,"Tana (Sisson et al., 2003b)",1490,71.89,412,6,68.66666667
+89ASn69,"Tana (Sisson et al., 2003b)",1490,77.01,90,10,9
+89ASn83,"Tana (Harris et al., 1996)",1490,,228,,
+89ASn87E,"Tana (Harris et al., 1996)",1490,,147,,
+89ASn95,"Tana (Harris et al., 1996)",1490,,480,,
+RF16-19B,Mt. Stamy (This study),1685,68.564518,425.0244556,11.5818279,36.69752817
+RF16-19A,Mt. Stamy (This study),1685,70.2640708,463.6981831,5.498296934,84.33487472
+95APO41b,"Mt. Stamy (Sisson et al., 2003b)",1685,71.72,207,22.8,9.078947368
+RF16-32B,Mt. Draper (This study),1705,66.8494816,347.4000985,3.995279598,86.95263748
+RF16-33B,Mt. Draper (This study),1705,67.7284036,177.9134747,2.697124365,65.96413462
+RF16-32A,Mt. Draper (This study),1705,68.9381484,380.8635948,2.383870316,159.7669102
+95APO47,"Nunatak (Sisson et al., 2003b)",1705,69.4,97,39,2.487179487
+RF16-31B,Mt. Draper (This study),1705,71.0453348,293.6992656,5.952654026,49.33921312
+94APo11b,"Mt. Draper (Sisson et al., 2003b)",1705,71.34,199,3,66.33333333
+RF16-31A,Mt. Draper (This study),1705,71.81152,234.7324798,4.452388036,52.72058004
+95APO21,"Mt. Draper (Sisson et al., 2003b)",1705,72.1,313,2.5,125.2
+RF16-33A,Mt. Draper (This study),1705,72.3312832,297.1168922,2.229167241,133.2860481
+94APo24,"Mt. Draper (Sisson et al., 2003b)",1705,73.88,23,2,11.5
+RF16-30A,Mt. Draper (This study),1705,73.9968328,301.051962,1.325081184,227.1951075
+RF16-01A,Mt. Draper (This study),1705,74.0127212,75.18120796,3.374570416,22.2787492
+95APO25a,"Nunatak (Sisson et al., 2003b)",1705,75.33,548,2.7,202.962963
+94APO11c,"Mt. Draper (Sisson et al., 2003b)",1705,75.58,251,1.9,132.1052632
+HL19-20,Novatak Pl (This study),1770,57.2889372,322.8168463,38.06257735,8.481213538
+95APO13,"Novatak (Sisson et al., 2003b)",1770,64.19,248,18.5,13.40540541
+KP13-02B,Krestof Is. (This study),2085,53.62761248,252.434,27.72720431,9.104199514
+KP13-02C,Krestof Is. (This study),2085,54.65901532,243.9372,27.35223678,8.91836386
+KP13-01C,Krestof Is. (This study),2085,55.55683068,265.1792,34.20914462,7.751705076
+KP13-02A,Krestof Is. (This study),2085,62.18810884,230.7968,20.7329258,11.13189726
+KP13-01A,Krestof Is. (This study),2085,63.13540324,261.5236,17.40596379,15.02494221
+CP13-07B,Baranof Is. (This study),2150,56.47095792,718.6712,20.69229988,34.73133505
+CP13-07D,Baranof Is. (This study),2150,62.18568824,720.5484,17.4770598,41.22823909
+CP13-12B,Baranof Is. (This study),2150,66.49179732,273.2808,14.7133259,18.57369312
+CP13-01,Baranof Is. (This study),2150,66.50620236,267.3528,19.50344463,13.70797852
+CP13-05A,Baranof Is. (This study),2150,66.5283564,376,10.15,37.04433498
+CP13-09A,Baranof Is. (This study),2150,66.6955822,342.342,12.30902877,27.81226743
+CP13-03A,Baranof Is. (This study),2150,67.13249556,434.4236,11.44867844,37.94530541
+CP13-07A,Baranof Is. (This study),2150,67.32672648,367.3384,9.880274665,37.17896642
+CP13-06A,Baranof Is. (This study),2150,67.40792032,292.5468,10.62659007,27.52969655
+CP13-03D,Baranof Is. (This study),2150,67.94039304,392.1372,13.84762508,28.31801105
+CP13-07C,Baranof Is. (This study),2150,68.00811056,171.6156,19.3837156,8.853596676
+CP13-12C,Baranof Is. (This study),2150,68.4707218,345.7012,7.734672485,44.69500172
+CP13-06B,Baranof Is. (This study),2150,68.53788604,413.2804,8.306121728,49.75612127
+CP13-04,Baranof Is. (This study),2150,68.7971988,298,6.05,49.25619835
+CP13-09C,Baranof Is. (This study),2150,69.30517672,335.8212,10.24470053,32.77999186
+CP13-13,Baranof Is. (This study),2150,70.06501788,203.7256,23.34042878,8.728442906
+CP13-12A,Baranof Is. (This study),2150,70.24722484,328.7076,12.36980559,26.57338449
+CP13-03C,Baranof Is. (This study),2150,71.04206096,325.7436,11.78039091,27.65134048
+CP13-09B,Baranof Is. (This study),2150,71.95519032,218.842,8.640122659,25.3285756
+CP13-03B,Baranof Is. (This study),2150,72.09009184,355.5812,6.41069017,55.46691395
+CP13-08D,Baranof Is. (This study),2150,75.0449007,56.232,2.81,20.0113879
+CP13-02,Baranof Is. (This study),2150,75.2694525,55,2.251887006,24.42396082

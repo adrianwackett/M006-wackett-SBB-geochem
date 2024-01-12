@@ -6,8 +6,28 @@ head(raw)
 ## linear mixed effects models for pluton 
 ## magmatic zircons eHf vs U/Pb age
 
-# clean workspace
+#### Clean workspace ####
 rm(list=ls())
+
+#### Load required packages ####
+library(readxl)
+library(ggplot2)
+library(GGally)
+library(carData)
+library(stats)
+library(car)
+library(dplyr)
+library(tidyr)
+library(lme4)
+library(nlme)
+library(effects)
+library(ggplot2)
+library(tidyverse) #y - pipe (%>%)
+library(cowplot) #y - cowplot
+library(MuMIn)
+library(r2glmm)
+library(here) #y - here
+
 
 ## Download data and read into R    ##
 
