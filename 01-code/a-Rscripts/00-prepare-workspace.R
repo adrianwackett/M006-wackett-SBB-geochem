@@ -1,6 +1,7 @@
 #### Load required packages ####
 library(readxl)
 library(ggplot2)
+library(gridExtra)
 library(GGally)
 library(carData)
 library(stats)
