@@ -1,6 +1,6 @@
 #### Checking for outliers ####
-# cleveland dotplots 
-# the x-axes show the values of a variable and the y-axes the observations
+# Cleveland dotplots 
+# The x-axes show the values of a variable and the y-axes the observations
 
 # cleveland dotplots for "Crawfish eHf vs. U/Pb age"
 op<- par(mfrow=c(2,1),mar=c(3,3,3,1))

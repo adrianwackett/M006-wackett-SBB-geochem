@@ -1,3 +1,139 @@
+#### Load required packages ####
+library(readxl)
+library(ggplot2)
+library(gridExtra)
+library(GGally)
+library(carData)
+library(stats)
+library(car)
+library(dplyr)
+library(tidyr)
+library(lme4)
+library(nlme)
+library(effects)
+library(ggplot2)
+library(tidyverse) #y - pipe (%>%)
+library(cowplot) #y - cowplot
+library(MuMIn)
+library(r2glmm)
+library(here) #y - here
+
+#### Read in prepared data ####
+# read in "Crawfish eHf vs. U/Pb age" data table
+crawfish_hf <- read.csv(here::here("00-data", "b-prepared", "Crawfish-eHf-age.csv"))
+
+# check structure and data types
+str(crawfish_hf)
+
+# read in "Crawfish eNd and 87Sr/86Sr vs. U/Pb age" data table
+crawfish_nd_sr <- read.csv(here::here("00-data", "b-prepared", "Crawfish-eNd-87Sr-age.csv"))
+
+# check structure and data types
+str(crawfish_nd_sr)
+
+# read in "Crawfish [Y] vs. U/Pb age" data table
+crawfish_y <- read.csv(here::here("00-data", "b-prepared", "Crawfish-Ycn-age.csv"))
+
+# check structure and data types
+str(crawfish_y)
+
+# read in "Eastern SBB U/Pb age vs. distance from Sanak" data table
+eastern_sbb <- read.csv(here::here("00-data", "b-prepared", "eastern-sbb-age-distance-zircons-final.csv"))
+
+# check structure and data types
+str(eastern_sbb)
+
+# read in "SBB rock age vs. distance from Sanak for all available age dates" data table
+sbb_age_distance_all <- read.csv(here::here("00-data", "b-prepared", "sbb-age-distance-all-samples.csv"))
+
+# check structure and data types
+str(sbb_age_distance_all)
+
+# read in "SBB U/Pb age vs. distance from Sanak for all concordant U/Pb zircon ages" data table
+sbb_age_distance_zircons <- read.csv(here::here("00-data", "b-prepared", "sbb-age-distance-zircons-final.csv"))
+
+# check structure and data types
+str(sbb_age_distance_zircons)
+
+# read in "Sr/Y vs. distance from Sanak for all SBB intrusive rocks with SiO2 > 54 wt %" data table
+sbb_SrY_distance_54Si <- read.csv(here::here("00-data", "b-prepared", "sbb-SrY-distance-compilation-54SiO2-cutoff.csv"))
+
+# check structure and data types
+str(sbb_SrY_distance_54Si)
+
+# read in "Western SBB U/Pb age vs. distance from Sanak Island" data table
+western_sbb <- read.csv(here::here("00-data", "b-prepared", "western-sbb-age-distance-zircons-final.csv"))
+
+# check structure and data types
+str(western_sbb)
+
+
+#### Declare cowplot custom theme ####
+# set custom theme
+custom_theme <- cowplot::theme_cowplot()
+custom_theme <- 
+  custom_theme + 
+  theme_bw() + 
+  theme(strip.background = element_blank(), panel.border = element_rect(colour = "black"), strip.text = element_text(size = rel(1.5)), axis.title = element_text(size = rel(1.5)), axis.text = element_text(size = rel(1.5), colour = 1), legend.title = element_text(size = rel(1.5)), legend.text = element_text(size = rel(1.5)), legend.key = element_blank(), panel.grid.major = element_blank(),  panel.grid.minor = element_blank(),  panel.background = element_rect(colour = "black", size=1, fill=NA))
+
+
+#### Checking for outliers ####
+# Cleveland dotplots 
+# The x-axes show the values of a variable and the y-axes the observations
+
+# cleveland dotplots for "Crawfish eHf vs. U/Pb age"
+op<- par(mfrow=c(2,1),mar=c(3,3,3,1))
+
+dotchart(crawfish_hf$age_Ma,main="U/Pb age (Ma)")
+dotchart(crawfish_hf$e_Hf_t,main="epsilon Hf")
+
+# cleveland dotplots for "Crawfish eNd and 87Sr/86Sr vs. U/Pb age"
+op<- par(mfrow=c(3,1),mar=c(3,3,3,1))
+
+dotchart(crawfish_nd_sr$age_Ma,main="U/Pb age (Ma)")
+dotchart(crawfish_nd_sr$e_Nd_t,main="epsilon Nd")
+dotchart(crawfish_nd_sr$Sr_initial,main="87Sr/86Sr initial")
+
+# cleveland dotplots for "Crawfish [Y] vs. U/Pb age"
+op<- par(mfrow=c(2,1),mar=c(3,3,3,1))
+
+dotchart(crawfish_y$age_Ma,main="U/Pb age (Ma)")
+dotchart(crawfish_y$Y_cn,main="[Y] chondrite-normalized")
+
+# cleveland dotplots for "Eastern SBB U/Pb age vs. distance from Sanak"
+op<- par(mfrow=c(2,1),mar=c(3,3,3,1))
+
+dotchart(eastern_sbb$age_Ma,main="U/Pb age (Ma)")
+dotchart(eastern_sbb$distance,main="distance from Sanak (km)")
+
+# cleveland dotplots for "SBB rock age vs. distance from Sanak for all available age dates"
+op<- par(mfrow=c(2,1),mar=c(3,3,3,1))
+
+dotchart(sbb_age_distance_all$age_Ma,main="sample age (Ma)")
+dotchart(sbb_age_distance_all$distance,main="distance from Sanak (km)")
+
+# cleveland dotplots for "SBB U/Pb age vs. distance from Sanak for all concordant U/Pb zircon ages"
+op<- par(mfrow=c(2,1),mar=c(3,3,3,1))
+
+dotchart(sbb_age_distance_zircons$age_Ma,main="U/Pb age (Ma)")
+dotchart(sbb_age_distance_zircons$distance,main="distance from Sanak (km)")
+
+# cleveland dotplots for "Sr/Y vs. distance from Sanak for all SBB intrusive rocks with SiO2 > 54 wt %"
+op<- par(mfrow=c(2,2),mar=c(3,3,3,1))
+
+dotchart(sbb_SrY_distance_54Si$SiO2_percent,main="SiO2 (wt %)")
+dotchart(sbb_SrY_distance_54Si$Sr_ppm,main="[Sr] (ppm)")
+dotchart(sbb_SrY_distance_54Si$Y_ppm,main="[Y] (ppm)")
+dotchart(sbb_SrY_distance_54Si$Sr_Y,main="Sr/Y")
+
+# cleveland dotplots for "Western SBB U/Pb age vs. distance from Sanak"
+op<- par(mfrow=c(2,1),mar=c(3,3,3,1))
+
+dotchart(western_sbb$age_Ma,main="U/Pb age (Ma)")
+dotchart(western_sbb$distance,main="distance from Sanak (km)")
+
+op<- par(mfrow=c(1,1),mar=c(3,3,3,1))
+
 #### LOESS smoother regression model for Supplemental Figure 1 -- Sr/Y ratios across the SBB ####
 # Ensure 'distance' and 'Sr_Y' columns are numeric
 sbb_SrY_distance_54Si$distance <- as.numeric(sbb_SrY_distance_54Si$distance)
@@ -25,22 +161,22 @@ ggplot(sbb_SrY_distance_54Si, aes(x = as.factor(distance), y = Sr_Y)) +
 
 # Define box colors based on 'distance'
 sbb_SrY_distance_54Si$legend <- ifelse(sbb_SrY_distance_54Si$distance == 3, "purple",
-  ifelse(sbb_SrY_distance_54Si$distance == 203, "blue",
-  ifelse(sbb_SrY_distance_54Si$distance == 1290, "green",
-  ifelse(sbb_SrY_distance_54Si$distance == 1360, "yellow",
-  ifelse(sbb_SrY_distance_54Si$distance %in% c(1685, 1705), "orange",
-  ifelse(sbb_SrY_distance_54Si$distance == 1770, "gold",
-  ifelse(sbb_SrY_distance_54Si$distance == 2085, "pink",
-  ifelse(sbb_SrY_distance_54Si$distance == 2150, "red", "white"))))))))
+                                       ifelse(sbb_SrY_distance_54Si$distance == 203, "blue",
+                                              ifelse(sbb_SrY_distance_54Si$distance == 1290, "green",
+                                                     ifelse(sbb_SrY_distance_54Si$distance == 1360, "yellow",
+                                                            ifelse(sbb_SrY_distance_54Si$distance %in% c(1685, 1705), "orange",
+                                                                   ifelse(sbb_SrY_distance_54Si$distance == 1770, "gold",
+                                                                          ifelse(sbb_SrY_distance_54Si$distance == 2085, "pink",
+                                                                                 ifelse(sbb_SrY_distance_54Si$distance == 2150, "red", "white"))))))))
 
 
 # Plot box-and-whiskers with customized colors and legend labels
 ggplot(sbb_SrY_distance_54Si, aes(x = as.factor(distance), y = Sr_Y, fill = legend)) +
   geom_boxplot(width = 0.5) +
   scale_fill_manual(values = c(purple = "purple", blue = "blue", green = "green", yellow = "yellow",
-  orange = "orange", gold = "gold", pink = "pink", red = "red", white = "white"
+                               orange = "orange", gold = "gold", pink = "pink", red = "red", white = "white"
   ), labels = c( purple = "Sanak Island", blue = "Nagai Island", green = "Sheep Bay", yellow = "McKinley Peak",
-  orange = "Mt. Draper/Stamy", gold = "Novatak Glacier", pink = "Krestof Island", red = "Crawfish", white = "Other studies"
+                 orange = "Mt. Draper/Stamy", gold = "Novatak Glacier", pink = "Krestof Island", red = "Crawfish", white = "Other studies"
   )) +
   scale_y_log10() +
   labs(x = "Distance from Sanak Island (km)", y = "Sr/Y") +
@@ -265,7 +401,7 @@ plot13a <- ggplot(sbb_age_distance_all, aes(x=distance, y=age_Ma)) +
 
 # Visualize plot for panel 13a
 plot13a  
-  
+
 #### Linear mixed effects model for Fig 13b -- SBB pluton U/Pb ages (Concordant U/Pb ages only!) versus distance from Sanak Island ####
 #### NOTE THAT LMMs FOR FIG 13B ONLY INCLUDE CONCORDANT U/PB DATES FROM MAGMATIC ZIRCON #####
 
@@ -572,3 +708,6 @@ plot13b_eastern_sbb
 
 ## The three regression models and associated plots forming Fig. 13b were combined in Adobe Illustrator 2023 for simplicity 
 ## The regression model and plot for Fig. 13A was also added to create the two-panel figure observed in the manuscript
+
+
+

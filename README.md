@@ -1,21 +1,13 @@
 # M006-wackett-SBB-geochem
-This is a standardized repo template for jelinski lab new project repos which follows our lab-specific open science guide procedures [insert link here to guide]. 
 
-## Registering a unique project ID on @jelinski-lab-project-registry
-**If you are in my lab group*, when using this template to set up a new project repo, please first obtain a new project ID by adding your project as a new row to [@jelinski-lab-project-registry](https://github.com/orgs/jelinski-lab-pedology/projects/1). **NOTE: If you are not in my lab group, feel free to use this template repo and name it whatever the heck you want!** Simply add a row with the next number in sequence (i.e. if the last registered project is M059-jelinski-permafrost-table-id, then your project should be M060-xxxxx) followed by your last name (assuming you are the project lead/owner) and then a 2-4 word descriptive title for your project (note - spend at least a bit of time thinking about this as this is what will be used on all other platforms (your personal computer, GitHub, GoogleDrive, etc...) as your project name.
 
-## Cloning the template to your personal GitHub page
-Assuming that you are the project lead/owner, the first step is to clone this template to your personal GitHub page and set it as private initially. Any manuscripts/proposals in development (i.e. not published or awarded) should be set as private by default. Once manuscripts are in press or published then you can flip the repo to public.
+This repo follows the standardized repo template available [@jelinski-lab-pedology/MXXX-project-template](https://github.com/jelinski-lab-pedology/MXXX-project-template). 
 
-## Rename the template repo 
-Now, rename the template repo using your registered project ID.
+This standardized structure was created by Nicolas A. Jelinski at the University of Minnesota-Twin Cities and draws inspiration from many excellent sources [^1][^2][^3][^4][^5][^6]. 
 
-## Default repo directory and subdirectory structure
-Use the default standardized folder structure unless there is an explicit reason to do something different!
+This template establishes the repo structure for this project [M006-wackett-SBB-geochem] as follows:
 
-This standardized structure is my own, modified and inspired from many excellent sources [^1][^2][^3][^4][^5][^6]. This is likely a living template and will change/improve as we adapt to diverse projects. Here is an example of the template repo structure for an arbitrary project [M009-jelinski-permafrost-id].
-
--   ./M009-jelinski-permafrost-table-id
+-   ./M006-wackett-SBB-geochem
     -   /00-data
         -  /a-raw
         -  /b-prepared 
@@ -35,13 +27,13 @@ This standardized structure is my own, modified and inspired from many excellent
         -   /b-submitted
         -   /c-final-and-proofs
     -   /05-metadata
-	-   /06-presentations
+    -   /06-presentations
     -   /docs
     -   \[LICENSE]
-    -   \[MXXX-project-name.Rproj\] *will initiate in section X*
+    -   \[M006-wackett-SBB-geochem.Rproj\]
     -   \[README.md\]
 
-*Note that what I dodn't use here was -lib or -libs and -tests*
+*Note that not all of these folders are necessarily populated*
 
 ## What Do Each of These Folders Mean and What Should I Put in Them?
 

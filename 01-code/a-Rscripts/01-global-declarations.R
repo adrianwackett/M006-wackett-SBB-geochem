@@ -1,5 +1,5 @@
 #### Declare cowplot custom theme ####
-# set custom theme
+# Set custom theme
 custom_theme <- cowplot::theme_cowplot()
 custom_theme <- 
   custom_theme + 
