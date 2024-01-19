@@ -67,12 +67,12 @@ plot12a <- ggplot(data = crawfish_hf, aes(x = age_Ma, y = e_Hf_t, color = pluton
   scale_shape_manual(values = c("Krestof Island" = 15, "Crawfish Inlet" = 17)) +
   scale_color_manual(values = c("Krestof Island" = "pink", "Crawfish Inlet" = "red")) +
   scale_y_continuous(breaks = seq(-4, 20, by = 2)) +
-  xlim(55, 45) +
+  xlim(54, 46) +
   ylim(-4, 20) +
   labs(x = "U/Pb age (Ma)", y = "epsilon Hf(t)") +
-  annotate("text", x = 54, y = 1, label = paste("R2 =", round(summary(crawfish_hf_lm_model)$r.squared, 2)), hjust = 1, size = 5) +
-  annotate("text", x = 54, y = 0.4, label = paste("P =", formatC(summary(crawfish_hf_lm_model)$coefficients[2, 4], digits = 2)), hjust = 1, size = 5) +
-  annotate("text", x = 45, y = 0.4, label = "CHUR", hjust = 1, size = 5, color = "black") + 
+  annotate("text", x = 53, y = 1, label = paste("R2 =", round(summary(crawfish_hf_lm_model)$r.squared, 2)), hjust = 1, size = 5) +
+  annotate("text", x = 53, y = 0.4, label = paste("P =", formatC(summary(crawfish_hf_lm_model)$coefficients[2, 4], digits = 2)), hjust = 1, size = 5) +
+  annotate("text", x = 46, y = 0.4, label = "CHUR", hjust = 1, size = 5, color = "black") + 
   custom_theme + theme(legend.position = "none")
 
 # Visualize plot12a, which will be panel a in Fig 12 (epsilon Hf vs. U/Pb age)
@@ -92,12 +92,12 @@ plot12b <- ggplot(data = crawfish_nd_sr, aes(x = age_Ma, y = e_Nd_t, color = plu
   geom_hline(yintercept = 0, linetype = "dashed", color = "black", size = 0.5) +  # Add thin black line at y = 0 for CHUR
   scale_shape_manual(values = c("Krestof Island" = 15, "Crawfish Inlet" = 17)) +
   scale_color_manual(values = c("Krestof Island" = "pink", "Crawfish Inlet" = "red")) +
-  xlim(55, 45) +
+  xlim(54, 46) +
   ylim(-1, 5) +
   labs(x = "U/Pb age (Ma)", y = "epsilon Nd(t)") +
-  annotate("text", x = 54, y = 0.25, label = paste("R2 =", round(summary(crawfish_nd_lm_model)$r.squared, 2)), hjust = 1, size = 5) +
-  annotate("text", x = 54, y = 0.1, label = paste("P =", formatC(summary(crawfish_nd_lm_model)$coefficients[2, 4], digits = 2)), hjust = 1, size = 5) +
-  annotate("text", x = 45, y = 0.1, label = "CHUR", hjust = 1, size = 5, color = "black") + 
+  annotate("text", x = 53, y = 0.25, label = paste("R2 =", round(summary(crawfish_nd_lm_model)$r.squared, 2)), hjust = 1, size = 5) +
+  annotate("text", x = 53, y = 0.1, label = paste("P =", formatC(summary(crawfish_nd_lm_model)$coefficients[2, 4], digits = 2)), hjust = 1, size = 5) +
+  annotate("text", x = 46, y = 0.1, label = "CHUR", hjust = 1, size = 5, color = "black") + 
   custom_theme + theme(legend.position = "none")
 
 # visualize plot12b, which will be panel b in Fig 12 (epsilon Nd vs. U/Pb age)
@@ -117,12 +117,12 @@ plot12c <- ggplot(data = crawfish_nd_sr, aes(x = age_Ma, y = Sr_initial, color =
   geom_point(size = 4, fill = "black", stroke = 2) +
   scale_shape_manual(values = c("Krestof Island" = 15, "Crawfish Inlet" = 17)) +
   scale_color_manual(values = c("Krestof Island" = "pink", "Crawfish Inlet" = "red")) +
-  xlim(55, 45) +
+  xlim(54, 46) +
   ylim(0.7035, 0.7055) +
   labs(x = "U/Pb age (Ma)", y = "87Sr/86Sr_initial") +
-  annotate("text", x = 54, y = 0.70376, label = paste("R2 =", round(summary(crawfish_sr_lm_model)$r.squared, 2)), hjust = 1, size = 5) +
-  annotate("text", x = 54, y = 0.703705, label = paste("P =", formatC(summary(crawfish_sr_lm_model)$coefficients[2, 4], digits = 2)), hjust = 1, size = 5) +
-  annotate("text", x = 54, y = 0.70453, label = "BSE", hjust = 1, size = 5, color = "black") + 
+  annotate("text", x = 53, y = 0.70376, label = paste("R2 =", round(summary(crawfish_sr_lm_model)$r.squared, 2)), hjust = 1, size = 5) +
+  annotate("text", x = 53, y = 0.703705, label = paste("P =", formatC(summary(crawfish_sr_lm_model)$coefficients[2, 4], digits = 2)), hjust = 1, size = 5) +
+  annotate("text", x = 53, y = 0.70453, label = "BSE", hjust = 1, size = 5, color = "black") + 
   custom_theme + theme(legend.position = "none")
 
 # Visualize plot12c, which will be panel c in Fig 12 (87Sr/86Sr_initial vs. U/Pb age)
@@ -142,11 +142,11 @@ plot12d <- ggplot(data = crawfish_y, aes(x = age_Ma, y = Y_cn, color = pluton, s
   scale_shape_manual(values = c("Krestof Island" = 15, "Crawfish Inlet" = 17)) +
   scale_color_manual(values = c("Krestof Island" = "pink", "Crawfish Inlet" = "red")) +
   scale_y_continuous(breaks = seq(0, 24, by = 2)) +
-  xlim(55, 45) +
+  xlim(54, 46) +
   ylim(0, 25) +
-  labs(x = "U/Pb age (Ma)", y = "epsilon Hf(t)") +
-  annotate("text", x = 54, y = 4.2, label = paste("R2 =", round(summary(crawfish_y_lm_model)$r.squared, 2)), hjust = 1, size = 5) +
-  annotate("text", x = 54, y = 3.5, label = paste("P =", formatC(summary(crawfish_y_lm_model)$coefficients[2, 4], digits = 2)), hjust = 1, size = 5) +
+  labs(x = "U/Pb age (Ma)", y = "Y_cn") +
+  annotate("text", x = 53, y = 4.2, label = paste("R2 =", round(summary(crawfish_y_lm_model)$r.squared, 2)), hjust = 1, size = 5) +
+  annotate("text", x = 53, y = 3.5, label = paste("P =", formatC(summary(crawfish_y_lm_model)$coefficients[2, 4], digits = 2)), hjust = 1, size = 5) +
   custom_theme + theme(legend.position = "none")
 
 # Visualize plot12d, which will be panel d in Fig 12 (chondrite-normalized Y vs. U/Pb age)
